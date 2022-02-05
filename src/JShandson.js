@@ -1,5 +1,7 @@
-function functionWithArgs(first,second)
+function timesFive(number)
 {
-console.log(first+second);
+return number*5;
 }
-functionWithArgs(5,10);
+timesFive(5);
+timesFive(2);
+timesFive(0);
