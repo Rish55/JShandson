@@ -1,14 +1,12 @@
-// Setup
-var outerWear = "T-Shirt";
+var sum = 0;
 
-function myOutfit() {
-  // Only change code below this line
-
-  var outerWear = "sweater";
-
-
-  // Only change code above this line
-  return outerWear;
+function addThree() {
+  sum = sum + 3;
 }
 
-myOutfit();
+function addFive() {
+  sum = sum + 5;
+}
+
+addThree();
+addFive();
