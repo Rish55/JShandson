@@ -1,5 +1,5 @@
-function reusableFunction()
+function functionWithArgs(first,second)
 {
-  console.log("Hi World");
+console.log(first+second);
 }
-reusableFunction();
+functionWithArgs(5,10);
